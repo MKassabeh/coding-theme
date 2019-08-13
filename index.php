@@ -2,6 +2,10 @@
 //https://developer.wordpress.org/themes/basics/template-files/#using-template-files
 // on séparer le header dans un fichier seul pour que toutes les pages puisse l'utiliser et qu'il ne faille modifier le header qu'à un seul endroit.
 get_header();
+get_template_part('templates/banner');
+//Ajout de la section portfolio
+get_template_part('templates/portfolio');
+
 ?>
 <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
