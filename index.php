@@ -5,7 +5,10 @@ get_header();
 get_template_part('templates/banner');
 //Ajout de la section portfolio
 get_template_part('templates/portfolio');
-
+//Ajout de la section about
+get_template_part('templates/about');
+//Ajout de la section contact
+get_template_part('templates/contact');
 ?>
 <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
